@@ -6,7 +6,7 @@ import java.util.Map;
 public class KATA2 {
 
     public static void main(String[] args) {
-        int  [] data   = {1,1,1,100,2,4,5,6,8,8,4,5,6,2,-4};
+        Integer  [] data   = {1,1,1,100,2,4,5,6,8,8,4,5,6,2,-4};
         Map<Integer,Integer> histogram = new HashMap<>();
         Histogram histo= new Histogram(data);
         Map<Integer,Integer> histogr= histo.getHistogram();
